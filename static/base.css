@@ -27,6 +27,10 @@ nav ul li a:hover {
     background-color: rgb(200, 200, 200);
 }
 
+nav ul li a:visited {
+    color: rgb(0, 0, 0);
+}
+
 main.container {
     color: rgb(255, 255, 255);
     background-color: rgb(153, 31, 0);
