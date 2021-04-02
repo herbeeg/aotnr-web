@@ -11,6 +11,31 @@ header {
     background-size: 100% 100%;
 }
 
+nav p {
+    line-height: 2em;
+}
+
+nav p a {
+    display: block;
+    text-decoration: none;
+}
+
+nav p a:hover {
+    background-color: rgb(200, 200, 200);
+}
+
+nav p a:visited {
+    color: rgb(0, 0, 0);
+}
+
+ul {
+    display: none;
+}
+
+ul:target {
+    display: block;
+}
+
 nav ul {
     padding: 0;
     list-style-type: none;
