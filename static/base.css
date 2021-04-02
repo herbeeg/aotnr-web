@@ -28,6 +28,18 @@ nav p a:visited {
     color: rgb(0, 0, 0);
 }
 
+a#hidenav {
+    display: block;
+}
+
+a#shownav {
+    display: none;
+}
+
+a:target {
+    display: none;
+}
+
 ul {
     display: none;
 }

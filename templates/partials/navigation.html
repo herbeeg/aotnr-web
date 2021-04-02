@@ -1,6 +1,7 @@
 <nav>
     <p>
-        <a href="#shownav">&equals; Menu</a>
+        <a id="hidenav" href="#shownav">&equals; Menu</a>
+        <a id="shownav" href="#hidenav">&times; Menu</a>
     </p>
     <ul id="shownav">
         <li><a href="{{ url_for('index') }}">Home &raquo;</a></li>
