@@ -43,20 +43,21 @@ nav ul li a:visited {
 }
 
 main.container article {
+    color: rgb(255, 255, 255);
     padding: 1em;
 }
 
 main.container article#about {
-    color: rgb(255, 255, 255);
-    background-color: rgb(153, 31, 0);
+    color: rgb(0, 0, 0);
+    background-color: rgba(153, 31, 0, 0.2);
 }
 
 main.container article#register {
-    
+    background-color: rgba(153, 31, 0, 0.6);
 }
 
 main.container article#contact {
-    
+    background-color: rgba(153, 31, 0, 1);
 }
 
 footer {
