@@ -11,57 +11,23 @@ header {
     background-size: 100% 100%;
 }
 
-nav p {
-    line-height: 2em;
-}
-
-nav p a {
-    display: block;
-    text-decoration: none;
-}
-
-nav p a:hover {
-    background-color: rgb(200, 200, 200);
-}
-
-nav p a:visited {
-    color: rgb(0, 0, 0);
-}
-
-a#hidenav {
-    display: block;
-}
-
-a#shownav {
-    display: none;
-}
-
-a:target {
-    display: none;
-}
-
-ul {
-    display: none;
-}
-
-ul:target {
-    display: block;
-}
-
 nav ul {
     padding: 0;
     list-style-type: none;
     line-height: 2em;
 }
 
+nav ul li {
+    display: inline;
+}
+
 nav ul li a {
-    display: block;
+    color: rgb(0, 0, 0);
     text-decoration: none;
-    padding-left: 1em;
 }
 
 nav ul li a:hover {
-    background-color: rgb(200, 200, 200);
+    text-decoration: underline;
 }
 
 nav ul li a:visited {
