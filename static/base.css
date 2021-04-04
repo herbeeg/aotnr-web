@@ -11,6 +11,14 @@ header {
     background-size: 100% 100%;
 }
 
+header .title h1 a {
+    text-decoration: none;
+}
+
+header .title h1 a:hover {
+    text-decoration: underline;
+}
+
 nav ul {
     padding: 0;
     list-style-type: none;
@@ -38,16 +46,16 @@ main.container article {
     padding: 1em;
 }
 
-main.container #about {
+main.container article#about {
     color: rgb(255, 255, 255);
     background-color: rgb(153, 31, 0);
 }
 
-main.container #register {
+main.container article#register {
     
 }
 
-main.container #contact {
+main.container article#contact {
     
 }
 
