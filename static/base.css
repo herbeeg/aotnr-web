@@ -45,6 +45,7 @@ nav ul li a:visited {
 main.container article {
     color: rgb(255, 255, 255);
     padding: 1em;
+    line-height: 2em;
 }
 
 main.container article#about {
