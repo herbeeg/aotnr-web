@@ -34,10 +34,21 @@ nav ul li a:visited {
     color: rgb(0, 0, 0);
 }
 
-main.container {
+main.container article {
+    padding: 1em;
+}
+
+main.container #about {
     color: rgb(255, 255, 255);
     background-color: rgb(153, 31, 0);
-    padding: 1em;
+}
+
+main.container #register {
+    
+}
+
+main.container #contact {
+    
 }
 
 footer {
