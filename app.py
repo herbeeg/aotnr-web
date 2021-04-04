@@ -12,6 +12,10 @@ freezer = Freezer(app)
 @app.route("/")
 def index():
     return render_template('index.html')
+    
+@app.route("/blog")
+def articles():
+    return render_template('index.html')
 
 if '__main__' == __name__:
     """Allow building of frozen app through the command line."""
