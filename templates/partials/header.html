@@ -9,5 +9,7 @@
     <div class="sub-title">
         <i>Create together. Grow together. Achieve as one.</i>
     </div>
-    {% include "partials/navigation.html" %}
+    {% if navigation %}
+        {% include "partials/navigation.html" %}
+    {% endif %}
 </header>
