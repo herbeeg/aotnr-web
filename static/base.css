@@ -1,5 +1,6 @@
 html, body {
     font-family: "Lucida Console", Monaco, monospace;
+    font-size: 100%;
     margin: 0;
     padding: 0;
 }
@@ -11,12 +12,20 @@ header {
     background-size: 100% 100%;
 }
 
-header .title h1 a {
+header div.title {
+    font-size: 1.5em;
+}
+
+header div.title h1 a {
     text-decoration: none;
 }
 
-header .title h1 a:hover {
+header div.title h1 a:hover {
     text-decoration: underline;
+}
+
+header div.sub-title {
+    font-size: 1.25em;
 }
 
 nav ul {
@@ -40,6 +49,10 @@ nav ul li a:hover {
 
 nav ul li a:visited {
     color: rgb(0, 0, 0);
+}
+
+main.container {
+    font-size: 1.125em;
 }
 
 main.container article {
