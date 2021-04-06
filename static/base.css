@@ -62,13 +62,17 @@ main.container article {
     line-height: 2em;
 }
 
-main.container article a {
+main.container article#overview {
+    color: rgb(0, 0, 0);
+}
+
+main.container article#overview a {
     font-weight: bold;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     text-decoration: none;
 }
 
-main.container article a:hover {
+main.container article#overview a:hover {
     text-decoration: underline;
 }
 
@@ -83,6 +87,16 @@ main.container article#register {
 
 main.container article#contact {
     background-color: rgba(153, 31, 0, 1.0);
+}
+
+main.container article#contact a {
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+main.container article#contact a:hover {
+    text-decoration: underline;
 }
 
 footer {
