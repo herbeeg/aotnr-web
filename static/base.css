@@ -39,6 +39,7 @@ nav ul li {
 }
 
 nav ul li a {
+    font-weight: bold;
     color: rgb(0, 0, 0);
     text-decoration: none;
 }
@@ -61,6 +62,16 @@ main.container article {
     line-height: 2em;
 }
 
+main.container article a {
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+main.container article a:hover {
+    text-decoration: underline;
+}
+
 main.container article#about {
     color: rgb(0, 0, 0);
     background-color: rgba(153, 31, 0, 0.2);
@@ -71,7 +82,7 @@ main.container article#register {
 }
 
 main.container article#contact {
-    background-color: rgba(153, 31, 0, 1);
+    background-color: rgba(153, 31, 0, 1.0);
 }
 
 footer {
